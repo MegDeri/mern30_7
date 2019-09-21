@@ -15,7 +15,6 @@ export const startRequest = () => ({ type: START_REQUEST });
 export const endRequest = () => ({ type: END_REQUEST });
 export const errorRequest = error => ({ error, type: ERROR_REQUEST });
 export const loadPosts = payload => ({ payload, type: LOAD_POSTS });
-export const errorRequest = error => ({ error, type: ERROR_REQUEST });
 
 export const LOAD_POSTS = createActionName('LOAD_POSTS');
 export const START_REQUEST = createActionName('START_REQUEST');
