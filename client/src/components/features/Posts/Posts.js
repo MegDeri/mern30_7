@@ -3,7 +3,7 @@ import { PropTypes } from 'prop-types';
 import PostsList from '../PostsList/PostsList';
 import Spinner from '../../common/Spinner/Spinner';
 import Alert from '../../common/Alert/Alert';
-import PostCounter from '../PostCounter/PostCounter';
+//import PostCounter from '../PostCounter/PostCounter';
 
 class Posts extends React.Component {
 
