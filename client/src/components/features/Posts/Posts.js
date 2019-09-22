@@ -21,9 +21,9 @@ class Posts extends React.Component {
          posts.length > 0 ? (
           <PostsList posts={posts} /> 
       ) : ( 
-        <Alert wariant="info"> No posts!!! </Alert>
+        <Alert variant="info"> No posts!!! </Alert>
       )) : ( 
-        <Alert wariant="error"> {request.error} </Alert>
+        <Alert variant="error"> {request.error} </Alert>
       );
 
     return (
